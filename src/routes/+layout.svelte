@@ -8,8 +8,7 @@
 	<a href="/about">about</a>
 </nav> -->
 
-<!-- {@render children()} -->
-<slot />
+{@render children()}
 
 
 <div class="max-w-4xl mx-auto">

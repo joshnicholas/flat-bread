@@ -1,4 +1,6 @@
+export const prerender = true;
 export async function load({ fetch }) {
+
   try {
     const sheetsUrl = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vR1CSi77xtaTLy7SewVBbYxxje96VjdNx61ljrVpmYVCAl7wJa3faWB3WI5GsM0AsPaBU3OcXSveOiX/pub?gid=399960736&single=true&output=csv';
     
